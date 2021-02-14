@@ -272,11 +272,11 @@ class UIFunctions(MainWindow):
             curvatureMeridian = (a * (1 - e)) / math.pow((1 - e * math.pow(math.sin(math.radians(phi)), 2)), 3 / 2)
             curvature1erVertical = a / math.sqrt(1 - e * math.pow(math.sin(math.radians(phi)), 2))
             rAlpha = (curvatureMeridian * curvature1erVertical) / (
-                    curvatureMeridian * math.pow(math.degrees(math.sin(math.radians(alpha))),
+                    curvatureMeridian * math.pow(math.sin(math.radians(alpha)),
                                                  2) + curvature1erVertical * math.degrees(
                 math.pow(math.cos(math.radians(alpha)), 2)))
             rAlpha=1/rAlpha
-            self.ui.lineEdit_105.setText(str("%.4f" % rAlpha))
+            self.ui.lineEdit_105.setText(str("%.10f" % rAlpha))
         except Exception :
             UIFunctions.errorMsg(self,"Erreur\nressayer une autre fois ")
 

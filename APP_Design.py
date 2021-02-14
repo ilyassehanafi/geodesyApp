@@ -203,7 +203,7 @@ class Ui_MainWindow(object):
         self.label_64.setAlignment(QtCore.Qt.AlignCenter)
         self.label_64.setObjectName("label_64")
         self.label_388 = QtWidgets.QLabel(self.page_14)
-        self.label_388.setGeometry(QtCore.QRect(400, 40, 721, 561))
+        self.label_388.setGeometry(QtCore.QRect(460, 90, 721, 561))
         self.label_388.setText("")
         self.label_388.setPixmap(QtGui.QPixmap("Geodesy.png"))
         self.label_388.setScaledContents(True)
@@ -3924,6 +3924,7 @@ class Ui_MainWindow(object):
         self.pushButton_9.setHidden(True)
         self.pushButton_10.setHidden(True)
         self.label_66.setHidden(True)
+
 
 if __name__ == "__main__":
     import sys
