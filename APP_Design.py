@@ -203,7 +203,7 @@ class Ui_MainWindow(object):
         self.label_64.setAlignment(QtCore.Qt.AlignCenter)
         self.label_64.setObjectName("label_64")
         self.label_388 = QtWidgets.QLabel(self.page_14)
-        self.label_388.setGeometry(QtCore.QRect(400, 90, 611, 511))
+        self.label_388.setGeometry(QtCore.QRect(400, 40, 721, 561))
         self.label_388.setText("")
         self.label_388.setPixmap(QtGui.QPixmap("Geodesy.png"))
         self.label_388.setScaledContents(True)
@@ -232,7 +232,7 @@ class Ui_MainWindow(object):
         self.label_128.setAlignment(QtCore.Qt.AlignCenter)
         self.label_128.setObjectName("label_128")
         self.label_391 = QtWidgets.QLabel(self.page_14)
-        self.label_391.setGeometry(QtCore.QRect(80, 450, 381, 81))
+        self.label_391.setGeometry(QtCore.QRect(20, 390, 431, 111))
         font = QtGui.QFont()
         font.setPointSize(14)
         self.label_391.setFont(font)
@@ -863,7 +863,7 @@ class Ui_MainWindow(object):
         self.lineEdit_95.setText("")
         self.lineEdit_95.setObjectName("lineEdit_95")
         self.pushButton_20 = QtWidgets.QPushButton(self.page_18)
-        self.pushButton_20.setGeometry(QtCore.QRect(-10, -10, 181, 51))
+        self.pushButton_20.setGeometry(QtCore.QRect(-10, 0, 181, 51))
         font = QtGui.QFont()
         font.setPointSize(14)
         self.pushButton_20.setFont(font)
@@ -1035,7 +1035,7 @@ class Ui_MainWindow(object):
         self.label_4.setStyleSheet("color : rgb(255, 255, 255)")
         self.label_4.setObjectName("label_4")
         self.pushButton_21 = QtWidgets.QPushButton(self.page_19)
-        self.pushButton_21.setGeometry(QtCore.QRect(-10, -10, 181, 51))
+        self.pushButton_21.setGeometry(QtCore.QRect(-10, 0, 181, 51))
         font = QtGui.QFont()
         font.setPointSize(14)
         self.pushButton_21.setFont(font)
@@ -2071,7 +2071,7 @@ class Ui_MainWindow(object):
         self.label_185.setStyleSheet("color :rgb(255, 255, 255)")
         self.label_185.setObjectName("label_185")
         self.label_186 = QtWidgets.QLabel(self.page_10)
-        self.label_186.setGeometry(QtCore.QRect(170, 460, 16, 16))
+        self.label_186.setGeometry(QtCore.QRect(190, 490, 16, 16))
         font = QtGui.QFont()
         font.setPointSize(16)
         self.label_186.setFont(font)
@@ -3645,7 +3645,7 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
         self.stackedWidget.setCurrentIndex(0)
         self.stackedWidget_2.setCurrentIndex(2)
-        self.stackedWidget_5.setCurrentIndex(0)
+        self.stackedWidget_5.setCurrentIndex(2)
         self.stackedWidget_6.setCurrentIndex(0)
         self.stackedWidget_3.setCurrentIndex(0)
         self.stackedWidget_4.setCurrentIndex(0)
@@ -3669,7 +3669,10 @@ class Ui_MainWindow(object):
 "Cycle d’ingénieur Géoinformation\n"
 "Année universitaire : 2020/2021\n"
 ""))
-        self.label_391.setText(_translate("MainWindow", "Réalisé par : HANAFI ILYASSE"))
+        self.label_391.setText(_translate("MainWindow", "Demandé par : Pr. BOULASSAL Hakim\n"
+"\n"
+"\n"
+"Réalisé par : HANAFI ILYASSE"))
         self.label_1.setText(_translate("MainWindow", "Identifier Les paramètres d\'une ellipse"))
         self.radioButton.setText(_translate("MainWindow", "Parametre a et e"))
         self.radioButton_2.setText(_translate("MainWindow", "Paramètre a et 1/f"))
@@ -3921,6 +3924,7 @@ class Ui_MainWindow(object):
         self.pushButton_9.setHidden(True)
         self.pushButton_10.setHidden(True)
         self.label_66.setHidden(True)
+
 
 if __name__ == "__main__":
     import sys
