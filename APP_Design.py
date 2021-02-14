@@ -3645,7 +3645,7 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
         self.stackedWidget.setCurrentIndex(0)
         self.stackedWidget_2.setCurrentIndex(2)
-        self.stackedWidget_5.setCurrentIndex(2)
+        self.stackedWidget_5.setCurrentIndex(0)
         self.stackedWidget_6.setCurrentIndex(0)
         self.stackedWidget_3.setCurrentIndex(0)
         self.stackedWidget_4.setCurrentIndex(0)
@@ -3924,7 +3924,6 @@ class Ui_MainWindow(object):
         self.pushButton_9.setHidden(True)
         self.pushButton_10.setHidden(True)
         self.label_66.setHidden(True)
-
 
 if __name__ == "__main__":
     import sys
