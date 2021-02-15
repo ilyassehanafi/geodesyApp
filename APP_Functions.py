@@ -273,8 +273,8 @@ class UIFunctions(MainWindow):
             curvature1erVertical = a / math.sqrt(1 - e * math.pow(math.sin(math.radians(phi)), 2))
             rAlpha = (curvatureMeridian * curvature1erVertical) / (
                     curvatureMeridian * math.pow(math.sin(math.radians(alpha)),
-                                                 2) + curvature1erVertical * math.degrees(
-                math.pow(math.cos(math.radians(alpha)), 2)))
+                                                 2) + curvature1erVertical *
+                math.pow(math.cos(math.radians(alpha)), 2))
             rAlpha=1/rAlpha
             self.ui.lineEdit_105.setText(str("%.10f" % rAlpha))
         except Exception :

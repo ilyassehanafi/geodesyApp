@@ -2855,6 +2855,20 @@ class Ui_MainWindow(object):
         self.label_514.setFont(font)
         self.label_514.setStyleSheet("color : rgb(255, 255, 255)")
         self.label_514.setObjectName("label_514")
+        self.label_515 = QtWidgets.QLabel(self.page_12)
+        self.label_515.setGeometry(QtCore.QRect(300, 470, 21, 16))
+        font = QtGui.QFont()
+        font.setPointSize(16)
+        self.label_515.setFont(font)
+        self.label_515.setStyleSheet("color : rgb(255, 255, 255)")
+        self.label_515.setObjectName("label_515")
+        self.label_516 = QtWidgets.QLabel(self.page_12)
+        self.label_516.setGeometry(QtCore.QRect(300, 210, 21, 16))
+        font = QtGui.QFont()
+        font.setPointSize(16)
+        self.label_516.setFont(font)
+        self.label_516.setStyleSheet("color : rgb(255, 255, 255)")
+        self.label_516.setObjectName("label_516")
         self.stackedWidget.addWidget(self.page_12)
         self.page_2 = QtWidgets.QWidget()
         self.page_2.setObjectName("page_2")
@@ -3669,7 +3683,7 @@ class Ui_MainWindow(object):
 "Cycle d’ingénieur Géoinformation\n"
 "Année universitaire : 2020/2021\n"
 ""))
-        self.label_391.setText(_translate("MainWindow", "Demandé par : Pr. BOULASSAL Hakim\n"
+        self.label_391.setText(_translate("MainWindow", "Demandé par : Pr. BOULAASSAL Hakim\n"
 "\n"
 "\n"
 "Réalisé par : HANAFI ILYASSE"))
@@ -3864,6 +3878,8 @@ class Ui_MainWindow(object):
         self.label_512.setText(_translate("MainWindow", "°"))
         self.label_513.setText(_translate("MainWindow", "donner l\'angle λ2 :"))
         self.label_514.setText(_translate("MainWindow", "\'\'"))
+        self.label_515.setText(_translate("MainWindow", "\'\'"))
+        self.label_516.setText(_translate("MainWindow", "\'\'"))
         self.label_37.setText(_translate("MainWindow", "Transformation des coordonnées "))
         self.label_20.setText(_translate("MainWindow", "By HANAFI Ilyasse"))
         self.label_39.setText(_translate("MainWindow", "Entrer le parametre 1/f :"))
