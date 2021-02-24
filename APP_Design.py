@@ -3941,7 +3941,6 @@ class Ui_MainWindow(object):
         self.pushButton_10.setHidden(True)
         self.label_66.setHidden(True)
 
-
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)

@@ -275,8 +275,7 @@ class UIFunctions(MainWindow):
                     curvatureMeridian * math.pow(math.sin(math.radians(alpha)),
                                                  2) + curvature1erVertical *
                 math.pow(math.cos(math.radians(alpha)), 2))
-            rAlpha=1/rAlpha
-            self.ui.lineEdit_105.setText(str("%.10f" % rAlpha))
+            self.ui.lineEdit_105.setText(str("%.4f" % rAlpha))
         except Exception :
             UIFunctions.errorMsg(self,"Erreur\nressayer une autre fois ")
 
@@ -451,7 +450,7 @@ class UIFunctions(MainWindow):
             R = (2*a+b)/3
 
             deltaLambda = lambda2 - lambda1
-            distanceD12 = math.acos( (math.sin(phi1)) * (math.sin(phi2)) + (math.cos(phi1)) * (math.cos(phi2)) * (math.cos(deltaLambda)) )
+            distanceD12 = math.acos( (math.sin(phi1)) * (math.sin(phi2)) + (math.cos(phi1)) * (math.cos(phi2)) * (math.cos(deltaLambda) ) )
             distanceD12 = R * distanceD12
             azimutDepart = math.degrees( mpmath.acot(
                 ( ( (math.tan(phi2)) * math.cos(phi1) ) / math.sin(deltaLambda)) -
